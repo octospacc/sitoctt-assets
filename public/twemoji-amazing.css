@@ -24,7 +24,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-size: 1em 1em;
 }
 
-.twa span {
+.twa * {
     /* Prevents image and text emoji overlap */
     font-size: 0px;
 }
