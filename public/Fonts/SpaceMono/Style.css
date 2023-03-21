@@ -2,4 +2,7 @@
 
 Body {
 	Font-Family: 'Space Mono', monospace;
+
+	/* Fix Space Mono bug with literal "fi" sequences (they get fused) */
+	Font-Variant-Ligatures: None;
 }
